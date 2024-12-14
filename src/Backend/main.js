@@ -5,6 +5,7 @@ const cookieParser = require('cookie-parser');
 const jwt = require('jsonwebtoken');
 const multer = require('multer');
 const path = require('path');
+const port = process.env.PORT || 4000;
 
 
 const loginPath = path.resolve('src/Frontend/login.html');
